@@ -1,5 +1,5 @@
-def calcularmedia (numero, lista):
-    media = float(calculartotal(lista) // numero)
+def calcularmedia (lista):
+    media = float(calculartotal(lista) // len(lista))
     return media
     
 
